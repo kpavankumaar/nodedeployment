@@ -222,3 +222,11 @@ create project and then it will ask about deployment choose github
 git rm -r --cached FolderName
 git commit -m "Removed folder from repository"
 git push origin master
+
+
+looking out for all logs in heroku link 
+
+in the heroku website to the top right hand side we have More option -> 
+click on restart all dynos
+click on logs in more options it will show the error messages mongoose was not added in package.json file
+https://dashboard.heroku.com/apps/nbits-project/logs

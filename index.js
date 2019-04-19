@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 const middlewares = require('./middleware')
 const config = require('./config')
 
-const PORT = os.Getenv("PORT") || 3000;
+const PORT = process.env.PORT || 3000;
 
   
 mongoose.connect(config.conStr, {dbName:'nbitsdb'},(err)=>{
