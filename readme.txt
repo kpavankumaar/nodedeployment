@@ -217,3 +217,8 @@ what happens if you mention what is needed your code will not break out
 we will deploy it from github not from heroku 
 create a account and login in heroku . 
 create project and then it will ask about deployment choose github
+
+// removing node_modules from github global repository
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
