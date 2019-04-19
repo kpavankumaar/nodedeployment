@@ -37,5 +37,5 @@ app.use('/api/products',productRouter);
 app.use('/api/reviews',reviewRouter);
 
 app.listen(PORT,function(){
-    console.log('we are listening to port', Port );
+    console.log('we are listening to port', PORT );
 });
